@@ -1,0 +1,6 @@
+# Large folders
+node_modules
+bin
+
+# Files
+.env

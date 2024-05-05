@@ -1,0 +1,21 @@
+{
+  "name": "database-attempt",
+  "version": "1.0.0",
+  "description": "Stores and encrypts files",
+  "main": "bin/index.js",
+  "scripts": {
+    "build": "rm -rf ./bin/ && tsc --build",
+    "start": "node -r dotenv/config .",
+    "dev": "ts-node -r dotenv/config src/index.ts",
+    "dev:watch": "ts-node-dev -r dotenv/config src/index.ts"
+  },
+  "author": "Crany",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.8",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
